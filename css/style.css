@@ -1,0 +1,43 @@
+* {
+	font-family: 'Nunito', sans-serif;
+}
+
+.my-name {
+	font-size: 40px;
+}
+
+.top-margin {
+	margin-top: 10px;
+}
+
+.text-muted {
+	color: #7d97ad;
+}
+
+hr {
+	border-top: 5px solid #7d97ad;
+}
+
+p {
+	font-size: 20px;
+}
+
+@media screen and (max-width: 549px) {
+	#logo-id {
+		display: none;
+	}
+
+	#main-title {
+		text-align: center;
+	}
+
+	.text-muted {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.text-muted {
+		text-align: center;
+	}
+}
