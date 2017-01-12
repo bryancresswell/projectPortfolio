@@ -10,20 +10,18 @@
 	</head>
 	<body>
 		<div class="container">
-			<header>
-			<div class="row">
-				<div class="top-margin col-xs-6 col-md-6">
+			<header class="row">
+				<div class="top-margin col-xs-12 col-md-6">
 					<img id="logo-id" class="top-margin" src="http://placehold.it/100x100" alt="My logo">
 				</div>
-				<div id="main-title" class="col-md-6 text-uppercase text-right thin-font">
+				<div id="main-title" class="col-xs-12 col-md-6 text-uppercase text-right thin-font">
 					<h1 class="my-name">Bryan Cresswell</h1>
 					<h4>Front-end Ninja</h4>
 				</div>
-			</div>
 			</header>
 			<div class="row">
 				<div class="col-md-12">
-					<hr>
+					<hr> <!-- TODO update hr block to have col-md-12 but with the same width as currently shows -->
 				</div>
 			</div>
 			<div class="row">
@@ -43,29 +41,23 @@
 					</div>
 				</article>
 			</div>
-			<div class="row text-center">
-				<article>
-					<div class="col-md-4">
-						<img class="img-responsive center-block" src="http://placekitten.com/g/400/400" alt="Appify">
-						<h4 class="text-uppercase">Appify</h4>
-						<a href="https://github.com/udacity/Appify/">https://github.com/udacity/appify/</a>
-					</div>
+			<section id="featured-work" class="row text-center">
+				<article class="col-md-4">
+					<img class="img-responsive center-block" src="http://placekitten.com/g/400/400" alt="Appify">
+					<h4 class="text-uppercase">Appify</h4>
+					<p><a href="https://github.com/udacity/Appify/">https://github.com/udacity/appify/</a></p>
 				</article>
-				<article>
-					<div class="col-md-4">
-						<img class="img-responsive center-block" src="http://placekitten.com/g/400/400" alt="Sunflower">
-						<h4 class="text-uppercase">Sunflower</h4>
-						<a href="https://github.com/udacity/sunflower/">https://github.com/udacity/sunflower/</a>
-					</div>
+					<article class="col-md-4">
+					<img class="img-responsive center-block" src="http://placekitten.com/g/400/400" alt="Sunflower">
+					<h4 class="text-uppercase">Sunflower</h4>
+					<p><a href="https://github.com/udacity/sunflower/">https://github.com/udacity/sunflower/</a></p>
 				</article>
-				<article>
-					<div class="col-md-4">
-						<img class="img-responsive center-block" src="http://placekitten.com/g/400/400" alt="Bokeh">
-						<h4 class="text-uppercase">Bokeh</h4>
-						<a href="https://github.com/udacity/bokeh/">https://github.com/udacity/bokeh/</a>
-					</div>
+				<article class="col-md-4">
+					<img class="img-responsive center-block" src="http://placekitten.com/g/400/400" alt="Bokeh">
+					<h4 class="text-uppercase">Bokeh</h4>
+					<p><a href="https://github.com/udacity/bokeh/">https://github.com/udacity/bokeh/</a></p>
 				</article>
-			</div>
+			</section>
 		</div>
 	</body>
 </html>

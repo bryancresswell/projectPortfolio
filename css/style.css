@@ -1,5 +1,5 @@
 * {
-	font-family: 'Nunito', sans-serif;
+	font-family: "Nunito", sans-serif;
 }
 
 .my-name {
@@ -22,22 +22,27 @@ p {
 	font-size: 20px;
 }
 
-@media screen and (max-width: 549px) {
-	#logo-id {
-		display: none;
+a {
+	font-size: 16px;
+}
+
+#featured-work {
+	font-size: 16px;
+}
+
+
+@media screen and (max-width: 991px) {
+	.text-muted {
+		text-align: center;
 	}
 
 	#main-title {
 		text-align: center;
 	}
 
-	.text-muted {
-		text-align: center;
-	}
-}
-
-@media screen and (max-width: 991px) {
-	.text-muted {
-		text-align: center;
+	#logo-id {
+		display: block;
+  		margin-left: auto;
+  		margin-right: auto;
 	}
 }
